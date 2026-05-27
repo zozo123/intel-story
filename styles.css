@@ -485,6 +485,19 @@ body{
   letter-spacing:.05em;
   margin-bottom:.6rem;
 }
+.footer__disclaimer{
+  max-width:640px;
+  margin:0 auto 1rem;
+  font-size:.92rem;
+  line-height:1.6;
+  color:#aab4cc;
+  background:#11182b;
+  border:2px dashed #2a3654;
+  border-radius:12px;
+  padding:1rem 1.2rem;
+}
+.footer__disclaimer strong{ color:var(--pow); }
+.footer__disclaimer em{ color:var(--sky); font-style:italic; }
 .footer__meta{ font-size:.9rem; color:#8a95ad; }
 
 /* ============================================================
