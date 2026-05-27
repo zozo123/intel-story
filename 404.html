@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — This node failed to tape out</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+      background: radial-gradient(circle at 50% 30%, #0b3d91 0%, #061a3a 60%, #03102a 100%);
+      color: #eaf2ff;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .code {
+      font-size: clamp(6rem, 28vw, 16rem);
+      font-weight: 900;
+      line-height: 0.9;
+      letter-spacing: -0.05em;
+      transform: scaleY(1.2);
+      color: #3fa9f5;
+      text-shadow: 0 0 30px rgba(63, 169, 245, 0.45);
+    }
+    .tagline {
+      margin-top: 1.5rem;
+      font-size: clamp(1.1rem, 4vw, 1.6rem);
+      font-weight: 600;
+      color: #cfe2ff;
+    }
+    .sub {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      color: #8fb4e6;
+      max-width: 30rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2.25rem;
+      padding: 0.85rem 2rem;
+      border-radius: 999px;
+      background: #3fa9f5;
+      color: #03102a;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .btn:hover {
+      background: #66bdff;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="code">404</div>
+  <p class="tagline">This node failed to tape out.</p>
+  <p class="sub">The die you're looking for didn't yield. Let's get you back to a working wafer.</p>
+  <a class="btn" href="/">Back to the story</a>
+</body>
+</html>
