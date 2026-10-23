@@ -60,4 +60,5 @@ the files as-is without Jekyll processing.
 ## Credits
 
 Infographic provided by the author. Company names and logos that appear in it
-belong to their owners. Fonts: Anton, Bangers and Inter via Google Fonts.
+belong to their owners. Fonts: Anton, Archivo Black, Bangers and Inter via
+Google Fonts.
