@@ -1,7 +1,11 @@
-# Intel: Vision Without Execution (2000–2026) 🔵
+# Intel: Vision Without Execution (2000–2026)
 
-A single-page, comic/infographic-style deep-dive into Intel's journey from
-the dot-com peak to the A0 era. Part visual essay, part post-mortem.
+Opinion essay by Yossi Eliaz (May 2026). Live: https://zozo123.github.io/intel-story/
+
+A single-page, comic/infographic-style essay on Intel's journey from the
+dot-com peak to the A0 era. Part visual essay, part post-mortem; one person's
+view, not endorsed by Intel. Dated facts and figures are linked in the page's
+Sources section.
 
 > **Thesis:** Intel never lacked vision — it lacked execution.
 
@@ -9,7 +13,7 @@ Time and again Intel saw the future early, placed a bet, and then failed to
 follow through. This page walks through the bets it whiffed on, the reckoning
 that followed, and where the company stands in 2026.
 
-## 🧩 What's here
+## What's here
 
 A static, self-contained page. No build step, no framework — just HTML, CSS,
 a sprinkle of JS, and one big infographic.
@@ -18,8 +22,9 @@ a sprinkle of JS, and one big infographic.
 - `styles.css` — styling
 - `script.js` — light interactivity
 - `assets/intel-journey-infographic.png` — the featured 3×3 infographic
+- `assets/og.svg`, `assets/og.png` — the 1200×630 share card
 
-## 🗺️ How it's structured
+## How it's structured
 
 - **Hero** — sets the scene and the thesis.
 - **Thesis** — the core argument: vision was never the problem.
@@ -34,7 +39,7 @@ a sprinkle of JS, and one big infographic.
   Lip-Bu Tan taking the helm in March 2025.
 - **Phase 3 — The A0 Era (2026):** where Intel goes from here.
 
-## 🚀 Run it locally
+## Run it locally
 
 It's a static site, so either works:
 
@@ -47,11 +52,12 @@ python3 -m http.server
 # then visit http://localhost:8000
 ```
 
-## 🌐 Deployment
+## Deployment
 
 Deployed via **GitHub Pages**. A `.nojekyll` file is included so Pages serves
 the files as-is without Jekyll processing.
 
-## 🖼️ Credits
+## Credits
 
-Infographic provided by the author.
+Infographic provided by the author. Company names and logos that appear in it
+belong to their owners. Fonts: Anton, Bangers and Inter via Google Fonts.
